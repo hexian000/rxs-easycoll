@@ -1,0 +1,32 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v1">
+  <!-- push services & wakeups -->
+  <prescription link="/oasisfeng/rx-toutiao-hypnosis" />
+  <prescription link="/greenify/rx-rong-push" />
+  <prescription link="/greenify/rx-xinge-push" />
+  <prescription link="/greenify/rx-baidu-sso" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-mipush" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-baidupush" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-huaweipush" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-tpush" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-jpush" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-alipush" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-igexin" />
+  <prescription link="/GreenifyUnofficalPrescription/rx-qq" />
+  <prescription link="/kalonelee/rx-amap" />
+  <prescription link="/kalonelee/rx-alibaba-push" />
+  <prescription link="/kalonelee/rx-qihoo" />
+  <prescription link="/wyapples/rx-umeng" />
+  <prescription link="/ayanamist/rx-zhihu" />
+  <prescription link="/CzBiX/rx-cmb" />
+  <prescription link="/djun/rx-channel-services" />
+
+  <!-- analytics -->
+  <prescription link="/kalonelee/rx-google-analytics" />
+  <prescription link="/Fei1Yang/rx-block-analytics" />
+
+  <!-- behavior changes -->
+  <prescription link="/WitherZuo/rx-coolapk-nosplash" />
+  <prescription link="/zjns/rx-NeteaseCloudMusic" />
+  <prescription link="/WitherZuo/rx-coolapk-nosplash" />
+  <prescription link="/LeeReindeer/rx-wechat" />
+</prescriptions>
