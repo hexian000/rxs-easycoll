@@ -40,7 +40,7 @@ func main() {
 		v := strings.Split(rx.Link[1:], "/")
 		user, repo := v[0], v[1]
 		buf.WriteString(fmt.Sprintf("| %s | %s | [Link](https://github.com%s) |\n",
-			user, repo, rx.Link))
+			repo, user, rx.Link))
 	}
 
 	err = ioutil.WriteFile("list.md", buf.Bytes(), 0644)
