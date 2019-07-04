@@ -27,9 +27,32 @@ type ParsedRx struct {
 }
 
 type List []ParsedRx
+
 func (l List) Len() int { return len(l) }
 func (l List) Less(i, j int) bool {
-	return strings.Compare(l[i].User, l[j].User) < 0
+	c := strings.Compare(
+		strings.ToLower(l[i].User),
+		strings.ToLower(l[j].User),
+	)
+	if c == 0 {
+		c = strings.Compare(
+			l[i].User,
+			l[j].User,
+		)
+	}
+	if c == 0 {
+		c = strings.Compare(
+			strings.ToLower(l[i].Repo),
+			strings.ToLower(l[j].Repo),
+		)
+	}
+	if c == 0 {
+		c = strings.Compare(
+			l[i].Repo,
+			l[j].Repo,
+		)
+	}
+	return c < 0
 }
 func (l List) Swap(i, j int) {
 	l[i], l[j] = l[j], l[i]
@@ -51,7 +74,7 @@ func main() {
 		v := strings.Split(rx.Link[1:], "/")
 		prx = append(prx, ParsedRx{v[1], v[0]})
 	}
-	sort.Sort(List(prx))
+	sort.Stable(List(prx))
 
 	buf := bytes.NewBuffer(b[:0])
 	buf.WriteString("# 致谢（字典序）\n\n")
