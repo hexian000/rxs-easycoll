@@ -1,7 +1,7 @@
 # 致谢（字典序）
 
 | 名称 | 作者 |
-|---|---|---|
+| --- | --- |
 | [rx-cmb](https://github.com/CzBiX/rx-cmb) | [CzBiX](https://github.com/CzBiX) |
 | [rx-block-analytics](https://github.com/Fei1Yang/rx-block-analytics) | [Fei1Yang](https://github.com/Fei1Yang) |
 | [rx-alipush](https://github.com/GreenifyUnofficalPrescription/rx-alipush) | [GreenifyUnofficalPrescription](https://github.com/GreenifyUnofficalPrescription) |

@@ -56,7 +56,7 @@ func main() {
 	buf := bytes.NewBuffer(b[:0])
 	buf.WriteString("# 致谢（字典序）\n\n")
 	buf.WriteString("| 名称 | 作者 |\n")
-	buf.WriteString("|---|---|---|\n")
+	buf.WriteString("| --- | --- |\n")
 
 	for _, rx := range prx {
 		buf.WriteString(fmt.Sprintf("| [%[2]s](https://github.com/%[1]s/%[2]s) | [%[1]s](https://github.com/%[1]s) |\n",
