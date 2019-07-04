@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"sort"
 	"strings"
 )
 
@@ -21,6 +22,19 @@ type Prescription struct {
 	Link    string   `xml:"link,attr"`
 }
 
+type ParsedRx struct {
+	Repo, User string
+}
+
+type List []ParsedRx
+func (l List) Len() int { return len(l) }
+func (l List) Less(i, j int) bool {
+	return strings.Compare(l[i].User, l[j].User) < 0
+}
+func (l List) Swap(i, j int) {
+	l[i], l[j] = l[j], l[i]
+}
+
 func main() {
 	var rxs Prescriptions
 	b, err := ioutil.ReadFile("rxs-easycoll.xml")
@@ -32,18 +46,24 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	buf := bytes.NewBuffer(b[:0])
-	buf.WriteString("| 名称 | 作者 | 链接 |\n")
-	buf.WriteString("|---|---|---|\n")
-
+	prx := make([]ParsedRx, 0)
 	for _, rx := range rxs.Rx {
 		v := strings.Split(rx.Link[1:], "/")
-		user, repo := v[0], v[1]
-		buf.WriteString(fmt.Sprintf("| %s | %s | [Link](https://github.com%s) |\n",
-			repo, user, rx.Link))
+		prx = append(prx, ParsedRx{v[1], v[0]})
+	}
+	sort.Sort(List(prx))
+
+	buf := bytes.NewBuffer(b[:0])
+	buf.WriteString("# 致谢（字典序）\n\n")
+	buf.WriteString("| 名称 | 作者 |\n")
+	buf.WriteString("|---|---|---|\n")
+
+	for _, rx := range prx {
+		buf.WriteString(fmt.Sprintf("| [%[2]s](https://github.com/%[1]s/%[2]s) | [%[1]s](https://github.com/%[1]s) |\n",
+			rx.User, rx.Repo))
 	}
 
-	err = ioutil.WriteFile("list.md", buf.Bytes(), 0644)
+	err = ioutil.WriteFile("CREDITS.md", buf.Bytes(), 0644)
 	if err != nil {
 		log.Fatalln(err)
 	}
