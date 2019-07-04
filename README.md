@@ -21,4 +21,4 @@ easycoll是一个处方集合，包含了网上多位开发者制作的处方
 
 # 包含的处方列表
 
-[Link](list.md)
+[致谢](CREDITS.md)
