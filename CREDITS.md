@@ -18,6 +18,7 @@
 | [rx-qq](https://github.com/GreenifyUnofficalPrescription/rx-qq) | [GreenifyUnofficalPrescription](https://github.com/GreenifyUnofficalPrescription) |
 | [rx-tpush](https://github.com/GreenifyUnofficalPrescription/rx-tpush) | [GreenifyUnofficalPrescription](https://github.com/GreenifyUnofficalPrescription) |
 | [rx-more](https://github.com/hexian000/rx-more) | [hexian000](https://github.com/hexian000) |
+| [rx-jpush](https://github.com/ipcjs/rx-jpush) | [ipcjs](https://github.com/ipcjs) |
 | [rx-alibaba-push](https://github.com/kalonelee/rx-alibaba-push) | [kalonelee](https://github.com/kalonelee) |
 | [rx-amap](https://github.com/kalonelee/rx-amap) | [kalonelee](https://github.com/kalonelee) |
 | [rx-google-analytics](https://github.com/kalonelee/rx-google-analytics) | [kalonelee](https://github.com/kalonelee) |
