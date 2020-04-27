@@ -5,7 +5,7 @@
 | [rx-zhihu](https://github.com/ayanamist/rx-zhihu) | [ayanamist](https://github.com/ayanamist) |
 | [rx-cmb](https://github.com/CzBiX/rx-cmb) | [CzBiX](https://github.com/CzBiX) |
 | [rx-channel-services](https://github.com/djun/rx-channel-services) | [djun](https://github.com/djun) |
-| [rx-block-analytics](https://github.com/Fei1Yang/rx-block-analytics) | [Fei1Yang](https://github.com/Fei1Yang) |
+| [rx-no-analytics](https://github.com/FeiyangOnline/rx-no-analytics) | [FeiyangOnline](https://github.com/FeiyangOnline) |
 | [rx-baidu-sso](https://github.com/greenify/rx-baidu-sso) | [greenify](https://github.com/greenify) |
 | [rx-rong-push](https://github.com/greenify/rx-rong-push) | [greenify](https://github.com/greenify) |
 | [rx-xinge-push](https://github.com/greenify/rx-xinge-push) | [greenify](https://github.com/greenify) |

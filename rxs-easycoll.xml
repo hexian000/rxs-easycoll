@@ -23,7 +23,7 @@
 
   <!-- analytics -->
   <prescription link="/kalonelee/rx-google-analytics" />
-  <prescription link="/Fei1Yang/rx-block-analytics" />
+  <prescription link="/FeiyangOnline/rx-no-analytics" />
 
   <!-- behavior changes -->
   <prescription link="/WitherZuo/rx-coolapk-nosplash" />
