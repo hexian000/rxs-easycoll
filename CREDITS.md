@@ -3,7 +3,6 @@
 | 名称 | 作者 |
 | --- | --- |
 | [rx-zhihu](https://github.com/ayanamist/rx-zhihu) | [ayanamist](https://github.com/ayanamist) |
-| [rx-cmb](https://github.com/CzBiX/rx-cmb) | [CzBiX](https://github.com/CzBiX) |
 | [rx-push-any](https://github.com/djun/rx-push-any) | [djun](https://github.com/djun) |
 | [rx-baidu-push](https://github.com/greenify/rx-baidu-push) | [greenify](https://github.com/greenify) |
 | [rx-baidu-sso](https://github.com/greenify/rx-baidu-sso) | [greenify](https://github.com/greenify) |
