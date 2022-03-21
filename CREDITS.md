@@ -15,7 +15,6 @@
 | [rx-amap](https://github.com/kalonelee/rx-amap) | [kalonelee](https://github.com/kalonelee) |
 | [rx-google-analytics](https://github.com/kalonelee/rx-google-analytics) | [kalonelee](https://github.com/kalonelee) |
 | [rx-qihoo](https://github.com/kalonelee/rx-qihoo) | [kalonelee](https://github.com/kalonelee) |
-| [rx-wechat](https://github.com/LeeReindeer/rx-wechat) | [LeeReindeer](https://github.com/LeeReindeer) |
 | [rx-toutiao-hypnosis](https://github.com/oasisfeng/rx-toutiao-hypnosis) | [oasisfeng](https://github.com/oasisfeng) |
 | [rx-coolapk-nosplash](https://github.com/WitherZuo/rx-coolapk-nosplash) | [WitherZuo](https://github.com/WitherZuo) |
 | [rx-umeng](https://github.com/wyapples/rx-umeng) | [wyapples](https://github.com/wyapples) |
