@@ -3,7 +3,6 @@
 | 名称 | 作者 |
 | --- | --- |
 | [rx-zhihu](https://github.com/ayanamist/rx-zhihu) | [ayanamist](https://github.com/ayanamist) |
-| [rx-cmb](https://github.com/CzBiX/rx-cmb) | [CzBiX](https://github.com/CzBiX) |
 | [rx-push-any](https://github.com/djun/rx-push-any) | [djun](https://github.com/djun) |
 | [rx-baidu-push](https://github.com/greenify/rx-baidu-push) | [greenify](https://github.com/greenify) |
 | [rx-baidu-sso](https://github.com/greenify/rx-baidu-sso) | [greenify](https://github.com/greenify) |
@@ -16,7 +15,6 @@
 | [rx-amap](https://github.com/kalonelee/rx-amap) | [kalonelee](https://github.com/kalonelee) |
 | [rx-google-analytics](https://github.com/kalonelee/rx-google-analytics) | [kalonelee](https://github.com/kalonelee) |
 | [rx-qihoo](https://github.com/kalonelee/rx-qihoo) | [kalonelee](https://github.com/kalonelee) |
-| [rx-wechat](https://github.com/LeeReindeer/rx-wechat) | [LeeReindeer](https://github.com/LeeReindeer) |
 | [rx-toutiao-hypnosis](https://github.com/oasisfeng/rx-toutiao-hypnosis) | [oasisfeng](https://github.com/oasisfeng) |
 | [rx-coolapk-nosplash](https://github.com/WitherZuo/rx-coolapk-nosplash) | [WitherZuo](https://github.com/WitherZuo) |
 | [rx-umeng](https://github.com/wyapples/rx-umeng) | [wyapples](https://github.com/wyapples) |

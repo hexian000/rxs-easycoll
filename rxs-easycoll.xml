@@ -12,7 +12,6 @@
   <prescription link="/kalonelee/rx-qihoo" />
   <prescription link="/wyapples/rx-umeng" />
   <prescription link="/ayanamist/rx-zhihu" />
-  <prescription link="/CzBiX/rx-cmb" />
   <prescription link="/ipcjs/rx-jpush" />
 
   <!-- analytics -->
@@ -21,7 +20,6 @@
   <!-- behavior changes -->
   <prescription link="/WitherZuo/rx-coolapk-nosplash" />
   <prescription link="/zjns/rx-NeteaseCloudMusic" />
-  <prescription link="/LeeReindeer/rx-wechat" />
   
   <!-- my addtions -->
   <prescription link="/hexian000/rx-more" />
